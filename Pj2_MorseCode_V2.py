@@ -120,6 +120,7 @@ class MorseCode(QMainWindow,Ui_MainWindow) :
         # print("刪除按鈕被按了")
         self.text = self.text[:-1]
         self.labText_1.setText(self.text)
+
     def btn5Click(self, event):
         # print("清空按鈕被按了")
         self.labText_1.clear()
